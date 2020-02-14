@@ -1,5 +1,7 @@
 version: 44.55.{build}
 image: Visual Studio 2017
+init:
+- appveyor version
 assembly_info:
   patch: true
   file: '**\AssemblyInfo.*'
